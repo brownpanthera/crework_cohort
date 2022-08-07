@@ -64,10 +64,3 @@ body{
     border-radius: 60px;
     cursor: pointer;
 }
-
-.hamburger{
-    width: 35px;
-    height: 5px;
-    background-color: black;
-    margin: 6px 0;
-}
