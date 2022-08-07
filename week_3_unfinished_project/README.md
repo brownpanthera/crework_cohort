@@ -1,3 +1,4 @@
 ## I am cloning snapchat. And here, What I have achieved till now.
 
-![2png](https://user-images.githubusercontent.com/68064523/183295795-fc3e64c4-86d1-4a6e-92ca-2ae11656f438.png)
+
+![clone](https://user-images.githubusercontent.com/68064523/183298973-c69f9d94-c9f3-48ee-a391-1bf04715ec76.png)
