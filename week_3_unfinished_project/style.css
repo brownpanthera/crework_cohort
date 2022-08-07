@@ -1,66 +1,118 @@
-body{
-    background-color: #fffc00;
-    font-family:Arial;  
+body {
+  background-color: #fffc00;
+  font-family: Arial;
 }
 
-.snap-logo{
-    display: flex;
-    justify-content: center;
+/* NAVBAR SECTION */
+.hamburger {
+  align-items: flex-start;
+  margin-bottom: -30px;
 }
 
-#logo{
-    width: 13%;
-    margin-top: 10px;
+.ham {
+  border-radius: 10px;
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  margin: 4px;
 }
 
-.header-text{
-    display: flex;
-    justify-content: end;
+.navbar {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
 }
 
-#txt{
-    font-size: 14px;
-    font-weight:600;
-    margin-top: -31px;
-    margin-right: 10px;
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.data{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 65%;
-
+#img-1 {
+  width: 13%;
 }
 
-.heading{
-    font-size: 22px;
-    font-weight: 500;
+.down {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
-.heading{
-    font-weight: bold;
-    text-align: center;
+#txt {
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: -31px;
+  margin-right: 10px;
+  color: black;
 }
 
-.some-txt{
-    font-size: 17px;
-    line-height: 20px;
-    text-align: center;
+/* -------------------------------------------------------------------------------------- */
+
+/* HERO SECTION */
+.data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50%;
 }
 
-.btn-btn{
-    display: flex;
-    justify-content: center;
-    margin-top: 25px;
+.heading {
+  font-size: 22px;
+  font-weight: 500;
+  font-weight: bold;
+  text-align: center;
 }
 
-#btn{
-    border: none;
-    font-size: 17px;
-    background: black;
-    color: white;
-    padding: 12px 36px;
-    border-radius: 60px;
-    cursor: pointer;
+.some-txt {
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.btn-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+#btn {
+  border: none;
+  font-size: 17px;
+  background: black;
+  color: white;
+  padding: 12px 36px;
+  border-radius: 60px;
+  cursor: pointer;
+}
+
+/* VIDEOS */
+.vid{
+  margin-top: 30px;
+}
+
+.mp4{
+  border-radius: 20px;
+}
+
+/* FOOTER */
+.footer{
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.foo-txt{
+font-size: 45px;
+font-weight: bold;
+}
+
+.foo-txt-too{
+  font-weight: bold;
+}
+
+a:link{
+  text-decoration: none;
+  cursor: pointer;
 }
