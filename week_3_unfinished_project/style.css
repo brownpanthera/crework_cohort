@@ -1,0 +1,73 @@
+body{
+    background-color: #fffc00;
+    font-family:Arial;  
+}
+
+.snap-logo{
+    display: flex;
+    justify-content: center;
+}
+
+#logo{
+    width: 13%;
+    margin-top: 10px;
+}
+
+.header-text{
+    display: flex;
+    justify-content: end;
+}
+
+#txt{
+    font-size: 14px;
+    font-weight:600;
+    margin-top: -31px;
+    margin-right: 10px;
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 65%;
+
+}
+
+.heading{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.heading{
+    font-weight: bold;
+    text-align: center;
+}
+
+.some-txt{
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.btn-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+#btn{
+    border: none;
+    font-size: 17px;
+    background: black;
+    color: white;
+    padding: 12px 36px;
+    border-radius: 60px;
+    cursor: pointer;
+}
+
+.hamburger{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
