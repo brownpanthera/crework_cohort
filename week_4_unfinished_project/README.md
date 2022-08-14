@@ -1,2 +1,2 @@
-![Screenshot (276)](https://user-images.githubusercontent.com/68064523/184533650-fca622cc-ed59-41ad-b055-79881d4c6339.png)
-![Screenshot (277)](https://user-images.githubusercontent.com/68064523/184533656-2d975e39-a72d-407a-b27b-6411efa9ae97.png)
+![Screenshot (276)](https://user-images.githubusercontent.com/68064523/184533695-ec3249fb-3d3b-401e-803b-f148e30f9c0a.png)
+![Screenshot (277)](https://user-images.githubusercontent.com/68064523/184533698-058af863-abe6-4952-af35-cb3103f02662.png)
