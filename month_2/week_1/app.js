@@ -18,7 +18,7 @@ btn.addEventListener("click", getRandomColor);
 
 // Audio Function
 function audio() {
-  let music = new Audio("/audio/waka.mp3");
+  let music = new Audio("/audio/thanos_snap.mp3");
   music.play();
 }
 btn.addEventListener("click", audio);
