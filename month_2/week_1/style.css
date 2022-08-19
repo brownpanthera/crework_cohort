@@ -3,47 +3,66 @@
   src: url("/font/GothamHTF-Book.woff");
 }
 
-body{
-font-family: 'batman';
+body {
+  font-family: "batman";
+}
+
+span{
+    color: #49A6E9;
 }
 
 
 
-#txt{
-    text-align: center;
-    font-size: larger;
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#txt {
+  border-style: none;
+  border-radius: 10px;
+  width: 300px;
+  padding: 12px 7px;
+  color: white;
+  background-color: rgb(49, 49, 49);
+  border: 2px solid red;
+  text-align: center;
+  font-size: larger;
 }
 
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 600px;
+  /* height: 400px; */
 }
 
 .button {
+  background-color: transparent;
   cursor: pointer;
   font-family: "batman";
   font-size: larger;
-  width: 250px;
-  padding: 12px 7px;
+  width: 150px;
+  padding: 10px 7px;
   border-radius: 10px;
-  border: 2px solid rgb(100, 63, 63);
+  border: 2px solid red;
 }
 
-.button:hover{
-    background-color: white;
+.button:hover {
+  background-color: rgb(49, 49, 49);
+  color: white;
 }
 
 @media only screen and (max-width: 900px) {
   body {
     background-color: rgb(7, 48, 61);
   }
-  .container{
-      height: 800px;
-  }
+  /* .container {
+    height: 500px;
+  } */
 
-  .button{
+  .button {
     padding: 12px 7px;
   }
 }
