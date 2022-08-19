@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "batman";
+  src: url("/font/GothamHTF-Book.woff");
+}
+
+body{
+font-family: 'batman';
+}
+
+
+
+#txt{
+    text-align: center;
+    font-size: larger;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+
+.button {
+  cursor: pointer;
+  font-family: "batman";
+  font-size: larger;
+  width: 250px;
+  padding: 12px 7px;
+  border-radius: 10px;
+  border: 2px solid rgb(100, 63, 63);
+}
+
+.button:hover{
+    background-color: white;
+}
+
+@media only screen and (max-width: 900px) {
+  body {
+    background-color: rgb(7, 48, 61);
+  }
+  .container{
+      height: 800px;
+  }
+
+  .button{
+    padding: 12px 7px;
+  }
+}
