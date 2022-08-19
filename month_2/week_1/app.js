@@ -1,7 +1,6 @@
 let btn = document.getElementById("btn");
-let text = document.getElementById('txt');
-let span = document.querySelector('.span');
-
+let text = document.getElementById("txt");
+let span = document.querySelector(".span");
 
 // Color Function
 function getRandomColor() {
@@ -10,7 +9,7 @@ function getRandomColor() {
   for (let i = 0; i < 6; i++) {
     color += letters[Math.floor(Math.random() * 16)];
   }
-  span.innerText =  color;
+  span.innerText = color;
   // console.log(color);
   document.body.style.backgroundColor = color;
 }
@@ -18,8 +17,8 @@ function getRandomColor() {
 btn.addEventListener("click", getRandomColor);
 
 // Audio Function
-function audio(){
-  let music = new Audio('/audio/waka.mp3');
+function audio() {
+  let music = new Audio("/audio/waka.mp3");
   music.play();
 }
-btn.addEventListener('click', audio);
+btn.addEventListener("click", audio);
