@@ -15,7 +15,7 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 11.5rem;
+  margin-top: 13.5rem;
 }
 
 #txt {
@@ -53,6 +53,13 @@ span {
   background-color: rgb(49, 49, 49);
   color: white;
 } */
+
+.pre-btn {
+  border: none;
+  border-style: none;
+  background: transparent;
+  cursor: pointer;
+}
 
 @media only screen and (max-width: 900px) {
   /* .button {
