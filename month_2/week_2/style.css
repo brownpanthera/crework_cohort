@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'batman';
+    src: url('/font/GothamHTF-Book.woff');
+}
+
+body{
+    font-family: 'batman';
+    border: 2px solid violet;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    margin: 50%;
+}
+
+#inputText{
+    padding: 10px;
+}

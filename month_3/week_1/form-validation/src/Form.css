@@ -1,0 +1,38 @@
+body{
+    background: tan;
+}
+
+h1{
+    text-align: center;
+}
+
+.uiForm{
+ display: flex;  
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+input{
+    width: 30%;
+}
+
+/* <form className='form'>
+<h1>Login Form</h1>
+<div className='ui divider'></div>
+<div className='ui form'>
+    <div className='field'>
+        <label>Username</label><br></br>
+        <input type='text' name='username' placeholder='Your Username' value={formValues.username}></input>
+    </div>
+    <div className='field'>
+        <label>Email</label><br></br>
+        <input type='emai' name='email' placeholder='Your Email' value={formValues.email}></input>
+    </div>
+    <div className='field'>
+        <label>Password</label><br></br>
+        <input type='password' name='password' placeholder='Your Password' value={formValues.password}></input>
+    </div>
+    <button className='fluid ui button blue'>Submit</button>
+</div>
+</form> */
