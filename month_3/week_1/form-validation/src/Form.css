@@ -1,38 +1,72 @@
-body{
-    background: tan;
+@font-face {
+  font-family: 'batman';
+  src: url('./font/GothamHTF-Book.woff');
+}
+* {
+  margin: 0;
+  padding: 0;
 }
 
-h1{
-    text-align: center;
+body {
+  font-family: 'batman';
+}
+
+h1 {
+  text-align: center;
+  margin: 5rem;
 }
 
 .uiForm{
- display: flex;  
- flex-direction: column;
- justify-content: center;
- align-items: center;
+  position: absolute;
+  top: 20%;
+  left: 25%;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 60px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 40%;
+  padding: 20px;
+}
+
+.uiForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.usernameThing{
+  margin: 10px;
+}
+
+.emailThing{
+  margin: 10px;
+}
+
+.passwordThing{
+  margin: 10px;
 }
 
 input{
-    width: 30%;
+  padding: 8px;
+  margin-top: 5px;
+  font-family: 'batman';
 }
 
-/* <form className='form'>
-<h1>Login Form</h1>
-<div className='ui divider'></div>
-<div className='ui form'>
-    <div className='field'>
-        <label>Username</label><br></br>
-        <input type='text' name='username' placeholder='Your Username' value={formValues.username}></input>
-    </div>
-    <div className='field'>
-        <label>Email</label><br></br>
-        <input type='emai' name='email' placeholder='Your Email' value={formValues.email}></input>
-    </div>
-    <div className='field'>
-        <label>Password</label><br></br>
-        <input type='password' name='password' placeholder='Your Password' value={formValues.password}></input>
-    </div>
-    <button className='fluid ui button blue'>Submit</button>
-</div>
-</form> */
+p{
+  color: red;
+  margin-top: inherit;
+}
+
+.btn{
+  margin: 10px;
+  color: white;
+  border-style: none;
+  border-radius: 5px;
+  background: rgb(122, 122, 228);
+  cursor: pointer;
+  font-family: "batman";
+  width: 190px;
+  padding: 10px;
+}
