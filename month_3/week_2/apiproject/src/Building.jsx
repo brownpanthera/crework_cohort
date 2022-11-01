@@ -7,7 +7,6 @@ function Building() {
         // const baseURL = 'https://kitsu.io/api/edge/anime'
         axios.get(baseURL).then((response) => {
             setAnime(response.data);
-            console.log(response.data);
         });
     }
     const [anime, setAnime] = useState([]);
