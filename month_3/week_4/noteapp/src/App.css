@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  font-family: "poppins", sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.add-btn{
+  margin-left: 2px;
+  height: 26px;
+  width: 50px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: rebeccapurple;
+  color: white;
+}
+
+input{
+  width: 20%;
+}
+
+.swap-btn{
+  outline: none;
+  border: none;
+  padding: 6px;
+  cursor: pointer;
+  margin: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  background-color: black;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  height: 28rem;
+  width: 22rem;
+  margin-inline: auto;
+  background-color: whitesmoke;
+  overflow-y: scroll;
+  position: absolute;
+  right: 65%;
+  bottom: 2%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+
+.card-2{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  height: 28rem;
+  width: 22rem;
+  margin-inline: auto;
+  background-color: whitesmoke;
+  overflow-y: scroll;
+  position: absolute;
+  left: 65%;
+  bottom: 2%;
+}
