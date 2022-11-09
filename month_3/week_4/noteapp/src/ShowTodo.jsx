@@ -1,11 +1,13 @@
-import React from 'react'
+import React from "react";
 
-const ShowTodo = (props)=>{
-    return(
-     <div className='task-list'>
-        <p>{props.todo}</p>
-        <button>X</button>
-     </div>    
-    )
-}
+const ShowTodo = (props) => {
+  return (
+    <div className="container">
+    <div className="main">
+    {props.todo}
+    <button className="remove">X</button>
+    </div>
+    </div>
+  );
+};
 export default ShowTodo;
