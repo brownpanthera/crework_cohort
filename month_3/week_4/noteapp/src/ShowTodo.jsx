@@ -2,10 +2,10 @@ import React from 'react'
 
 const ShowTodo = (props)=>{
     return(
-       <>
-        <h6>{props.todo}</h6>
+     <div className='task-list'>
+        <p>{props.todo}</p>
         <button>X</button>
-       </>       
+     </div>    
     )
 }
 export default ShowTodo;

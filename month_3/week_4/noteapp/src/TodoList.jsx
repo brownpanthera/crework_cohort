@@ -1,6 +1,8 @@
 import React from 'react';
+import ShowTodo from './ShowTodo';
 
-const TodoCard = (props)=>{
+
+const TodoList = (props)=>{
     return( 
       <div className="card">
       <h2>Todo List</h2>
@@ -10,4 +12,4 @@ const TodoCard = (props)=>{
     )
 }
 
-export default TodoCard;
+export default TodoList;
