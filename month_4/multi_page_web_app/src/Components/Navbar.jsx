@@ -9,7 +9,7 @@ const Navbar = ()=>{
             <Link to='/'>FOOTWEAR</Link>
           </li>
           <li>
-            <Link>APPAREL</Link>
+            <Link to='/apparel'>APPAREL</Link>
             </li>
             <li>
             <Link>SLIDES</Link>
