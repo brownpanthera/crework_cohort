@@ -54,6 +54,7 @@
   .remove {
     background-color: grey;
     color: white;
+    cursor: pointer;
   }
 
   h2{

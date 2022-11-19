@@ -1,19 +1,23 @@
-import { Link } from 'react-router-dom';
-import React from 'react';
+import { Link } from "react-router-dom";
+import { CartState } from "../Context";
+import "./styles.css";
 
-const Header = ()=>{
-    return(
-        <div>
-          {/* <h2>React Context API</h2> */}
-          <ul className='nav'>
-            <li>
-                <Link to="/">Home Page</Link>
-            </li>
-            <li>
-                <Link to="/cart">Cart</Link>
-            </li>
-          </ul>
-        </div>
-    )
-}
+const Header = () => {
+  const { cart } = CartState();
+
+  return (
+    <div>
+      <span className="header">React Context API</span>
+      <ul className="nav">
+        <li className="prod">
+          <Link to="/">Home Page</Link>
+        </li>
+        <li className="prod1">
+          <Link to="/cart">Cart ({cart.length})</Link>
+        </li>
+      </ul>
+    </div>
+  );
+};
+
 export default Header;

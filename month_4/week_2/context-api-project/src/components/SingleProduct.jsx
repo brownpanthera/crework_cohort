@@ -1,6 +1,7 @@
+import { CartState } from "../Context";
 
-const SingleProduct = ({ prod, cart, setCart }) => {
-
+const SingleProduct = ({ prod }) => {
+  const { cart, setCart } = CartState();
 
   return (
     <div className="products">
